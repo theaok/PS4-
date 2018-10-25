@@ -55,3 +55,7 @@ used in book reviews is weakly correlated with (.1) with the content of the
 book and its description*/ 
 corr tot tot2
 
+/*We can see frequency of the the same empathy words looks relatively similar
+across both totals*/ 
+ta tot, plot
+ta tot2, plot
