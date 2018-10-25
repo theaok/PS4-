@@ -5,7 +5,7 @@ Graphics for Good Reads Reviews vs. Descriptions Empathy Words */
 
 
 // Orig Good Reads 
-insheet using /home/u0/Downloads/100kSamplOfAllSeed4694329905allBooksReadMin1revV1.csv, clear names
+insheet using /mnt/commons/rachel/100kSamplOfAllSeed4694329905allBooksReadMin1revV1.csv, clear names
 keep if rev~=""
 keep if rev~="."
 keep if rev~="..."
