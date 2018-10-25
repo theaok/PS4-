@@ -48,7 +48,8 @@ egen tot2=rowtotal(str_d*)
 
 /*Comparing total empathy words used in reviews to total empathy words
 used in book descriptions... */
-tw(scatter tot tot2)(lfit tot tot2)
+tw(scatter tot tot2, msymbol(Oh) jitter(2))(lfit tot tot2)
+//jitter spreads the dist, 'msymbol(Oh)' makes the circles open
 
 /*Correlation between totals... weak correlation! So, the empathetic language
 used in book reviews is weakly correlated with (.1) with the content of the 
@@ -59,3 +60,5 @@ corr tot tot2
 across both totals*/ 
 ta tot, plot
 ta tot2, plot
+
+//proportion of words that ar empathetic 
