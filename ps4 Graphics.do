@@ -54,3 +54,4 @@ tw(scatter tot tot2)(lfit tot tot2)
 used in book reviews is weakly correlated with (.1) with the content of the 
 book and its description*/ 
 corr tot tot2
+
